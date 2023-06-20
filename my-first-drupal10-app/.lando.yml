@@ -1,0 +1,9 @@
+name: my-first-drupal10-app
+recipe: drupal10
+config:
+  webroot: web
+services:
+  appserver:
+    webroot: web
+  mail:
+      type: mailhog
